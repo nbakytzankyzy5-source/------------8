@@ -1,0 +1,90 @@
+.block {
+    display:block;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: blue;
+}
+.inline {
+    display: inline;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: orange;
+}
+.flex {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: yellow;
+}
+.container {
+    display: flex;
+    border: 2px solid black;
+    padding: auto;
+    background-color: aquamarine;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch;
+}
+.box {
+    display:flex;
+    border: 2px solid black;
+}
+.item:nth-child(1) {
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-basis: 300px;
+}
+.item:nth-child(2) {
+    flex-grow: 2;
+    flex-shrink: 3;
+    flex-basis: 100px;
+}
+.item:nth-child(3) {
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-basis: 100px;
+}
+.section{
+    display: flex;
+    border: 2px solid black;
+    height:90px;
+}
+.item4{
+    flex: 0 0 50%;
+    background-color: lightcoral;
+}
+.item5{
+    flex:1;
+    background-color: lightpink;
+}
+.item6{
+    flex: 0 0 100px;
+    background-color: lightgoldenrodyellow;
+}
+.menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu a{
+    color:brown;
+    font-size: 40px;
+}
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card{
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid brown;
+    justify-content: center;
+    align-items: center;
+}
